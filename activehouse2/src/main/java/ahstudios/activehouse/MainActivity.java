@@ -1,7 +1,7 @@
 //Active Applications
 //Active House Project
 
-package io.github.activehouse;
+package ahstudios.activehouse;
 
 import android.content.Context;
 import android.content.DialogInterface;
