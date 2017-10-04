@@ -1,8 +1,7 @@
 //Active Applications
 //Active House Project
 
-package io.github.activehouse;
-
+package ahstudios.activehouse;
 import android.os.AsyncTask;
 import android.util.Log;
 import org.json.JSONException;

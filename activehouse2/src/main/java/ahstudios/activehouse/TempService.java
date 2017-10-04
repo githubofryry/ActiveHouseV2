@@ -41,7 +41,7 @@ public class TempService extends Service
         public void run()
         {
             Log.e(this.getClass().getSimpleName(), "service is called");
-            new ahstudios.activehouse.TempService.GetTemp().execute();         /////////////////Get the Temp Value in place of GetGas [maybe GetTemp]
+            new ahstudios.activehouse.TempService.getTemp().execute();         /////////////////Get the Temp Value in place of GetGas [maybe GetTemp]
             //toastHandler.sendEmptyMessage(0);
         }
     }
