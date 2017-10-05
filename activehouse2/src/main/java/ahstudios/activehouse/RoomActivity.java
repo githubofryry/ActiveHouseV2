@@ -1,7 +1,7 @@
 //Active Applications
 //Active House Project
 
-package io.github.activehouse;
+package ahstudios.activehouse;
 
 import android.app.AlertDialog;
 import android.app.TimePickerDialog;

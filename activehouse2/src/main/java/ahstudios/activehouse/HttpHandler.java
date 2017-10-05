@@ -1,11 +1,9 @@
 //Active Applications
 //Active House Project
 
-package io.github.activehouse;
+package ahstudios.activehouse;
 
-/**
- * Created by Trenton on 2016-11-15.
- */
+
 
 import android.util.Log;
 

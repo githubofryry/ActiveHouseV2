@@ -1,7 +1,7 @@
 //Active Applications
 //Active House Project
 
-package io.github.activehouse;
+package ahstudios.activehouse;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
