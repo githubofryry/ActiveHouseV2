@@ -6,7 +6,7 @@
     android:fitsSystemWindows="true"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_room"
-    tools:context="io.github.activehouse.RoomActivity"
+    tools:context="ahstudios.activehouse.RoomActivity"
     tools:showIn="@layout/app_bar_room"
     android:background="@color/colorTextDark"
     android:paddingTop="@dimen/activity_vertical_margin">
