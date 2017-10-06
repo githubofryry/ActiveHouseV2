@@ -7,10 +7,6 @@ import android.util.Log;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- * Created by Oliver on 2017-10-04.
- */
-
 public class TempService extends Service
 {
     public TempService() {}
@@ -19,9 +15,12 @@ public class TempService extends Service
         private static Timer timer = new Timer();
         private Context ctx;
         int HouseID;
-
-
-
+        
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        HouseID = intent.getIntExtra("HouseID", 0);
+        return START_STICKY;
+    }
 
 
     public void onCreate()
@@ -45,5 +44,17 @@ public class TempService extends Service
             //toastHandler.sendEmptyMessage(0);
         }
     }
+    
+    public void onDestroy()
+    {
+        super.onDestroy();
+        //Toast.makeText(this, "Service Stopped ...", Toast.LENGTH_SHORT).show();
+    }
+    
+    private class GetTemp extends AsyncTask<Void, Void, Void> {
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            //Toast.makeText(HomeActivity.this,"Json Data is downloading",Toast.LENGTH_LONG).show();
 
 }
